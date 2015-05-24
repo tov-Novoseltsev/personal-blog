@@ -1,4 +1,4 @@
-html, body, div, p, a, ul, li {
+html, body, div, p, a {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -12,11 +12,11 @@ html {
   	font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   html {
     font-size: 20px;
   }
-}
+}*/
 
 header {
 	text-align: center;
@@ -112,11 +112,15 @@ article a h2 {
 	color: #202039;
 }
 
-article p {
+article section {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 1.3rem;
-	line-height: 2rem;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
 }
+
+	article section a {
+		text-decoration: underline !important;
+	}
 
 article time {
 	opacity: 0.5;
