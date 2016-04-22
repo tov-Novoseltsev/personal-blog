@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maxim Novoseltsev</title>
+    <description>Personal Blog</description>
+    <link>http://maks.rocks/</link>
+    <atom:link href="http://maks.rocks/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Apr 2016 00:24:03 +0300</pubDate>
+    <lastBuildDate>Sat, 23 Apr 2016 00:24:03 +0300</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Hosting on Github</title>
+        <description>&lt;p&gt;I knew it was possible, but I didn&#39;t know it would be that easy.&lt;!--more--&gt; So, to host your static web content on Github you need:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A Github account;&lt;/li&gt;
+  &lt;li&gt;Create new repository;&lt;/li&gt;
+  &lt;li&gt;Create &quot;gh-pages&quot; branch and push there your static web content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Want a custom domain name?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Go buy one;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/#configuring-an-a-record-with-your-dns-provider&quot;&gt;Configure an A record to point to github ip addresses&lt;/a&gt;;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository&quot;&gt;Add a file named &quot;CNAME&quot; to repository and put your custom domain name in it&lt;/a&gt;.
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 24 May 2015 00:00:00 +0300</pubDate>
+        <link>http://maks.rocks/hosting-on-github.html</link>
+        <guid isPermaLink="true">http://maks.rocks/hosting-on-github.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Winter is coming</title>
+        <description>&lt;p&gt;So are my writings on this site.&lt;!--more--&gt; I won’t set any schedule of posting here. Let it be natural. Nature is a cruel, but gorgeous bitch. It dictates us to build society. No man is an island. This is a primary motivation of sharing ideas and experience here.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 May 2015 00:00:00 +0300</pubDate>
+        <link>http://maks.rocks/winter-is-coming.html</link>
+        <guid isPermaLink="true">http://maks.rocks/winter-is-coming.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
