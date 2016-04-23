@@ -11,11 +11,9 @@ html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px; }
 
-/*@media (min-width: 1200px) {
-  html {
-    font-size: 20px;
-  }
-}*/
+h4 {
+  margin: 1.5rem 0 0.5rem; }
+
 /**
  * Clearfix
  */

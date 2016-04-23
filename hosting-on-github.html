@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Hosting on Github :: Maxim Novoseltsev</title>
-  <meta name="description" content="I knew it was possible, but I didn't know it would be that easy.">
+  <title>Hosting Blog On Github :: Maxim Novoseltsev</title>
+  <meta name="description" content="I knew it was possible, but I didn’t know it would be that easy.">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://maks.rocks/hosting-on-github.html">
@@ -27,7 +27,17 @@
 
 
   <body>
-
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1081499818559173";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
     <header>
   <section class="personal-info">
     <div class="avatar"><div></div></div>
@@ -44,26 +54,43 @@
     <main class="main-content">
       <div class="wrapper">
         <article itemscope itemtype="http://schema.org/BlogPosting">
-  <a href="/hosting-on-github.html"><h2 itemprop="name headline">Hosting on Github</h2></a>
-  <time datetime="2015-05-24T00:00:00+03:00" itemprop="datePublished">May 24, 2015</time>
+  <a href="/hosting-on-github.html"><h2 itemprop="name headline">Hosting Blog On Github</h2></a>
+  <time datetime="2016-04-23T00:00:00+03:00" itemprop="datePublished">Apr 23, 2016</time>
   <section itemprop="articleBody">
-    <p>I knew it was possible, but I didn't know it would be that easy.<!--more--> So, to host your static web content on Github you need:</p>
+    <p>I knew it was possible, but I didn’t know it would be that easy.<!--more--> So, to host your static web content on Github you need:</p>
+
 <ul>
   <li>A Github account;</li>
   <li>Create new repository;</li>
-  <li>Create "gh-pages" branch and push there your static web content.</li>
+  <li>Create “gh-pages” branch and push there your static web content.</li>
 </ul>
+
 <p>Want a custom domain name?</p>
+
 <ul>
   <li>Go buy one;</li>
   <li><a href="https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/#configuring-an-a-record-with-your-dns-provider">Configure an A record to point to github ip addresses</a>;</li>
-  <li><a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository">Add a file named "CNAME" to repository and put your custom domain name in it</a>.
-  </li>
+  <li><a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository">Add a file named “CNAME” to repository and put your custom domain name in it</a>.</li>
 </ul>
+
+<h4 id="static-website-generator">Static website generator</h4>
+<p>Manual creation of files is a monkey work. At first I wanted to create my own
+simple generator. But, once I came across <a href="https://jekyllrb.com">Jekyll</a>, I
+made my choice. <a href="https://jekyllrb.com">Jekyll</a> is a masterpiece: highly flexible,
+simple in use, provides clean output and has nice documentation.</p>
+
+<h4 id="comments">Comments</h4>
+<p>There are plenty of 3-rd party commenting systems, like <a href="https://disqus.com">Disqus</a>
+and <a href="https://intensedebate.com">IntenseDebate</a>. I prefer Facebook comments.</p>
 
   </section>
 
 </article>
+
+<br />
+<hr />
+
+<div class="fb-comments" data-href="http://maks.rocks/hosting-on-github" data-numposts="7" data-width="100%"></div>
 
       </div>
     </main>

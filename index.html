@@ -27,7 +27,17 @@
 
 
   <body>
-
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1081499818559173";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
     <header>
   <section class="personal-info">
     <div class="avatar"><div></div></div>
@@ -45,23 +55,12 @@
       <div class="wrapper">
         
   <article>
-    <a href="/hosting-on-github"><h2>Hosting on Github</h2></a>
-    <time datetime="2015-05-24">May 24, 2015</time>
+    <a href="/hosting-on-github"><h2>Hosting Blog On Github</h2></a>
+    <time datetime="2015-05-24">Apr 23, 2016</time>
     <section class="excerpt">
-      <p>I knew it was possible, but I didn't know it would be that easy.
+      <p>I knew it was possible, but I didn’t know it would be that easy.</p>
 
-</p>
  <a href="/hosting-on-github.html">Read more...</a>
-    </section>
-  </article>
-
-  <article>
-    <a href="/winter-is-coming"><h2>Winter is coming</h2></a>
-    <time datetime="2015-05-24">May 23, 2015</time>
-    <section class="excerpt">
-      <p>So are my writings on this site.</p>
-
- <a href="/winter-is-coming.html">Read more...</a>
     </section>
   </article>
 
